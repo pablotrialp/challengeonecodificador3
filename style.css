@@ -1,0 +1,392 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+}
+
+header{
+    padding: 20px;
+    position: relative;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.logos{
+    border-radius: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+body{
+    background: #000;
+    margin: 0%;
+}
+
+main {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+} 
+
+.input-texto {
+    color: #a1a1a1;
+    background: #111;
+    margin-top: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #a1a1a1;
+    opacity: 90%;
+    border-radius: 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+.informacion {
+    border-radius: 10px;
+    text-align: center;
+    background: #242020;
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    color: #a1a1a1;
+    margin-bottom: 1px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+}
+
+.encriptar {
+    margin-right: 30px;
+    background-color: #355c4c;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #21f3d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+
+.encriptar:hover{
+    color: #258460;
+    background-color: #21f3d0;
+    box-shadow: 0 0 10px #21f3d0, 0 0 40px #21f3d0, 0 0 80px #21f3d0;
+    transition-delay: 0.2s;
+}
+.encriptar span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0%;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#21f3d0);
+
+}
+
+.encriptar:hover #span1{
+    left: 100%;
+    transition: 1s;
+
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#21f3d0);
+
+}
+
+.encriptar:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+#span3{
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#21f3d0);
+
+}
+
+.encriptar:hover #span3{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#21f3d0);
+
+}
+
+.encriptar:hover #span4{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+
+.desencriptar {
+    background-color: #355c4c;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #21f3d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+
+.desencriptar:hover{
+    color: #258460;
+    background-color: #21f3d0;
+    box-shadow: 0 0 10px #21f3d0, 0 0 40px #21f3d0, 0 0 80px #21f3d0;
+    transition-delay: 0.2s;
+}
+.desencriptar span{
+    position: absolute;
+    display: block;
+}
+
+#span5{
+    top: 0%;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#21f3d0);
+
+}
+
+.desencriptar:hover #span5{
+    left: 100%;
+    transition: 1s;
+
+}
+
+#span6{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#21f3d0);
+
+}
+
+.desencriptar:hover #span6{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+#span7{
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#21f3d0);
+
+}
+
+.desencriptar:hover #span7{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+#span8{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#21f3d0);
+
+}
+
+.desencriptar:hover #span8{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+
+.copiar {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #355c4c;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #21f3d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+
+.copiar:hover{
+    color: #258460;
+    background-color: #21f3d0;
+    box-shadow: 0 0 10px #21f3d0, 0 0 40px #21f3d0, 0 0 80px #21f3d0;
+    transition-delay: 0.2s;
+}
+.copiar span{
+    position: absolute;
+    display: block;
+}
+
+#span9{
+    top: 0%;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#21f3d0);
+
+}
+
+.copiar:hover #span9{
+    left: 100%;
+    transition: 1s;
+
+}
+
+#span10{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#21f3d0);
+
+}
+
+.copiar:hover #span10{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+#span11{
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#21f3d0);
+
+}
+
+.copiar:hover #span11{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+#span12{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#21f3d0);
+
+}
+
+.copiar:hover #span12{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+
+
+.mensaje {
+    color: #a1a1a1;
+    background: #000;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 60px;
+    background-image: url("imagen_figma/detective.png");
+    opacity: 90;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 220px;
+    box-sizing: border-box;
+    border: 3px solid #a1a1a1;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nombre{
+    color: #a1a1a1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-left: 35px;
+}
+
+footer { 
+    box-sizing: border-box;
+    position:relative;
+    width: 100%;  
+    padding: 5px; 
+    margin-top: 60px; 
+    background-color:#000;
+
+}
+
+.redes{
+
+    display: inline-flex;
+    margin-left: 600px;
+}
+
+.linkedin{
+    margin-right: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconectar" href="https://fonts.googleapis.com">
+        <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap" rel="stylesheet">
+        <title>Encriptador de Textos</title>
+    </head>
+
+    <body>
+        <video src="imagen_figma/Candado animación.mp4" muted autoplay loop></video>
+
+        <header>
+           
+            <a href="https://www.aluracursos.com/">
+                <img class="logos" src="imagen_figma/Logo.jpg" alt="Logo de Alura con la inicial de la letra a">
+            </a>
+            
+         
+        </header>
+
+        <main>
+            <section>
+                <textarea class="input-texto" cols="40" rows="8" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h5 class="informacion">Ingrese solo letras minúsculas y sin acentos.</h5>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        Encriptar
+                    </button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">
+                        <span id="span5"></span>
+                        <span id="span6"></span>
+                        <span id="span7"></span>
+                        <span id="span8"></span>
+                        Desencriptar
+                    </button>
+                    <button class="copiar" onclick="copiar()">
+                        <span id="span9"></span>
+                        <span id="span10"></span>
+                        <span id="span11"></span>
+                        <span id="span12"></span>
+                        Copiar 
+                    </button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="8"> </textarea>            
+            </section>
+        </main>
+       <script src="script.js"></script>
+    </body>
+    <footer>
+        <p class="nombre">© Pablo Nahuel Macedo - Programa ONE - Oracle - Alura Latam</p>
+
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/pablonahuelmacedo/">
+                <img class="linkedin" src="imagen_figma/linkedin.png" alt="Logo de linkedin">
+            </a>
+            <a href="https://github.com/pablotrialp">
+                <img class="github" src="imagen_figma/github.png" alt="Logo de Git Hub">
+            </a>
+        </div>
+        
+        
+
+    </footer>
+</html>
+
+
